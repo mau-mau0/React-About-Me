@@ -26,6 +26,24 @@ body {
   display: flex;
   position: relative;
 
+  .pro-sidebar {
+    color: #4d4d4e;
+    height: 100%;
+    width: 270px;
+    min-width: 270px;
+    text-align: left;
+    transition: width, left, right, 0.3s;
+    position: fixed;
+    z-index: 1009;
+    font-family: 'Coolvetica';
+
+    .pro-menu {
+      .pro-menu-item {
+        font-size: 21px;
+      }
+    }
+  }
+
   .btn-toggle {
     cursor: pointer;
     width: 35px;

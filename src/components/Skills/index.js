@@ -38,98 +38,157 @@ const Skills = () => {
   return (
     <>
       <div className="container skills-page">
-        <div className="text-zone_1">
-          <div>
-            <h1>
-              <AnimatedLetters
-                letterClass={letterClass}
-                strArray={['S', 'k', 'i', 'l', 'l', 's']}
-                idx={15}
-              />
-            </h1>
+        <h1>
+          <AnimatedLetters
+            letterClass={letterClass}
+            strArray={['S', 'k', 'i', 'l', 'l', 's']}
+            idx={15}
+          />
+        </h1>
+        <div className="text-zone">
+          <div className='zone'>
+            <h2 className='head-text'>Technical</h2>
+            <div className="app__skills-container">
+              <motion.div className='app__skills-list'>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={GitS} alt="Git" />
+                  </div>
+                  <p className="p-text">Git</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={ReactS} alt="React" />
+                  </div>
+                  <p className="p-text">React</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={CppS} alt="C++" />
+                  </div>
+                  <p className="p-text">C++</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={PythonS} alt="Python" />
+                  </div>
+                  <p className="p-text">Python</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={JavaS} alt="JavaScript" />
+                  </div>
+                  <p className="p-text">JavaScript</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={HtmlS} alt="HTML5" />
+                  </div>
+                  <p className="p-text">HTML5</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={CssS} alt="CSS" />
+                  </div>
+                  <p className="p-text">CSS</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={SassS} alt="Sass" />
+                  </div>
+                  <p className="p-text">Sass</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={NodeS} alt="Node.js" />
+                  </div>
+                  <p className="p-text">Node.js</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={SolidityS} alt="Solidity" />
+                  </div>
+                  <p className="p-text">Solidity</p>
+                </motion.div>
+              </motion.div>
+            </div>
           </div>
-          <h2 className='head-text'>Technical</h2>
-          <div className="app__skills-container">
-            <motion.div className='app__skills-list'>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={GitS} alt="Git" />
+          <div className='zone2'>
+            <div className="app__skills-exp">
+              <motion.div className="app__skills-exp-item">
+                <div className="app__skills-exp-year">
+                  <h2 className="bold-text">Finance</h2>
                 </div>
-                <p className="p-text">Git</p>
+                <motion.div className="app__skills-exp-works">
+                  <div className='marg'>
+                    <>
+                      <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-exp-work">
+                        <ul className="bold-text">
+                          <li>
+                            Technical Analysis
+                          </li>
+                          <li>
+                            Market Research
+                          </li>
+                          <li>
+                            Record Keeping
+                          </li>
+                          <li>
+                            Stock & Option Trading
+                          </li>
+                          <li>
+                            Crypto: ETH, Altcoins, & Microcaps
+                          </li>
+                        </ul>
+                      </motion.div>
+                    </>
+                  </div>
+                </motion.div>
               </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={ReactS} alt="React" />
+              <motion.div className="app__skills-exp-item">
+                <div className="app__skills-exp-year">
+                  <h2 className="bold-text">Skills</h2>
                 </div>
-                <p className="p-text">React</p>
+                <motion.div className="app__skills-exp-works">
+                  <div className='marg1'>
+                    <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-exp-work">
+                      <ul className="bold-text">
+                        <li>
+                          Problem Solving
+                        </li>
+                        <li>
+                          Computers Proficiency
+                        </li>
+                        <li>
+                          Rapid Learner
+                        </li>
+                        <li>
+                          Strong Work Ethic
+                        </li>
+                      </ul>
+                    </motion.div>
+                  </div>
+                </motion.div>
               </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={CppS} alt="C++" />
-                </div>
-                <p className="p-text">C++</p>
-              </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={PythonS} alt="Python" />
-                </div>
-                <p className="p-text">Python</p>
-              </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={JavaS} alt="JavaScript" />
-                </div>
-                <p className="p-text">JavaScript</p>
-              </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={HtmlS} alt="HTML5" />
-                </div>
-                <p className="p-text">HTML5</p>
-              </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={CssS} alt="CSS" />
-                </div>
-                <p className="p-text">CSS</p>
-              </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={SassS} alt="Sass" />
-                </div>
-                <p className="p-text">Sass</p>
-              </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={NodeS} alt="Node.js" />
-                </div>
-                <p className="p-text">Node.js</p>
-              </motion.div>
-
-              <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
-                <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
-                  <img src={SolidityS} alt="Solidity" />
-                </div>
-                <p className="p-text">Solidity</p>
-              </motion.div>
-            </motion.div>
+            </div>
           </div>
         </div>
 
-        <div className="text-zone_2">
+        {/* <div className="text-zone_2">
           <div className="app__skills-exp">
             <motion.div className="app__skills-exp-item">
               <div className="app__skills-exp-year">
-                <h2 className="bold-text">Investing</h2>
+                <h2 className="bold-text">Finance</h2>
               </div>
               <motion.div className="app__skills-exp-works">
                 <div className='marg'>
@@ -137,16 +196,16 @@ const Skills = () => {
                     <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-exp-work">
                       <ul className="bold-text">
                         <li>
-                          Technical analysis
+                          Technical Analysis
                         </li>
                         <li>
-                          Market research
+                          Market Research
                         </li>
                         <li>
                           Record Keeping
                         </li>
                         <li>
-                          Stock & Option trading
+                          Stock & Option Trading
                         </li>
                         <li>
                           Crypto: ETH, Altcoins, & Microcaps
@@ -159,10 +218,10 @@ const Skills = () => {
             </motion.div>
             <motion.div className="app__skills-exp-item">
               <div className="app__skills-exp-year">
-                <h2 className="bold-text">Additionally</h2>
+                <h2 className="bold-text">Skills</h2>
               </div>
               <motion.div className="app__skills-exp-works">
-                <>
+                <div className='marg1'>
                   <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-exp-work">
                     <ul className="bold-text">
                       <li>
@@ -179,12 +238,12 @@ const Skills = () => {
                       </li>
                     </ul>
                   </motion.div>
-                </>
+                </div>
               </motion.div>
             </motion.div>
           </div>
-        </div>
-        <div className="text-zone_3">
+        </div> */}
+        {/* <div className="text-zone_3">
           <div className="stage-cube-cont">
             <div className="cubespinner">
               <div className="face1">
@@ -207,7 +266,7 @@ const Skills = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
       <Loader type="ball-scale" />
     </>

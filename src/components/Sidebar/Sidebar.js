@@ -46,30 +46,30 @@ const Sidebar = ({ toggled, handleToggleSidebar }) => {
         </div>
       </SidebarHeader>
 
-      <SidebarContent style={{ padding: '26px 0px' }}>
+      <SidebarContent>
         <Menu iconShape="circle">
 
-          <MenuItem style={{ margin: '32px 12px' }} icon={<FaHome size={32} />}>
+          <MenuItem icon={<FaHome size={32} />}>
             {intl.formatMessage({ id: 'Home' })}
             <NavLink activeclassname="active" to="/"></NavLink>
           </MenuItem>
 
-          <MenuItem style={{ margin: '32px 12px' }} icon={<FaProjectDiagram size={32} />}>
+          <MenuItem icon={<FaProjectDiagram size={32} />}>
             {intl.formatMessage({ id: 'Experience' })}
             <NavLink activeclassname="active" className="contact-link" to="/experience"></NavLink>
           </MenuItem>
 
-          <MenuItem style={{ margin: '32px 12px' }} icon={<FaToolbox size={32} />}>
+          <MenuItem icon={<FaToolbox size={32} />}>
             {intl.formatMessage({ id: 'Skills' })}
             <NavLink activeclassname="active" className="contact-link" to="/skills"></NavLink>
           </MenuItem>
 
-          <MenuItem style={{ margin: '32px 12px' }} icon={<FaFolderOpen size={32} />}>
+          <MenuItem icon={<FaFolderOpen size={32} />}>
             {intl.formatMessage({ id: 'Portfolio' })}
             <NavLink activeclassname="active" className="contact-link" to="/portfolio"></NavLink>
           </MenuItem>
 
-          <MenuItem style={{ margin: '32px 12px' }} icon={<FaTelegramPlane size={32} />}>
+          <MenuItem icon={<FaTelegramPlane size={32} />}>
             {intl.formatMessage({ id: 'Contact' })}
             <NavLink activeclassname="active" className="contact-link" to="/contact"></NavLink>
           </MenuItem>

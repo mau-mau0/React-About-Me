@@ -38,14 +38,14 @@ const Skills = () => {
   return (
     <>
       <div className="container skills-page">
-        <h1>
-          <AnimatedLetters
-            letterClass={letterClass}
-            strArray={['S', 'k', 'i', 'l', 'l', 's']}
-            idx={15}
-          />
-        </h1>
         <div className="text-zone">
+          <h1>
+            <AnimatedLetters
+              letterClass={letterClass}
+              strArray={['S', 'k', 'i', 'l', 'l', 's']}
+              idx={15}
+            />
+          </h1>
           <div className='zone'>
             <h2 className='head-text'>Technical</h2>
             <div className="app__skills-container">
@@ -182,88 +182,50 @@ const Skills = () => {
               </motion.div>
             </div>
           </div>
-        </div>
-
-        {/* <div className="text-zone_2">
-          <div className="app__skills-exp">
-            <motion.div className="app__skills-exp-item">
-              <div className="app__skills-exp-year">
-                <h2 className="bold-text">Finance</h2>
-              </div>
-              <motion.div className="app__skills-exp-works">
-                <div className='marg'>
-                  <>
-                    <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-exp-work">
-                      <ul className="bold-text">
-                        <li>
-                          Technical Analysis
-                        </li>
-                        <li>
-                          Market Research
-                        </li>
-                        <li>
-                          Record Keeping
-                        </li>
-                        <li>
-                          Stock & Option Trading
-                        </li>
-                        <li>
-                          Crypto: ETH, Altcoins, & Microcaps
-                        </li>
-                      </ul>
-                    </motion.div>
-                  </>
+          <div className='zone3'>
+            <div className="stage-cube-cont">
+              <div className="cubespinner">
+                <div className="face1">
+                  <FontAwesomeIcon icon={faAngular} color="#DD0031" />
                 </div>
-              </motion.div>
-            </motion.div>
-            <motion.div className="app__skills-exp-item">
-              <div className="app__skills-exp-year">
-                <h2 className="bold-text">Skills</h2>
-              </div>
-              <motion.div className="app__skills-exp-works">
-                <div className='marg1'>
-                  <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-exp-work">
-                    <ul className="bold-text">
-                      <li>
-                        Problem Solving
-                      </li>
-                      <li>
-                        Computers Proficiency
-                      </li>
-                      <li>
-                        Rapid Learner
-                      </li>
-                      <li>
-                        Strong Work Ethic
-                      </li>
-                    </ul>
-                  </motion.div>
+                <div className="face2">
+                  <FontAwesomeIcon icon={faHtml5} color="#F06529" />
                 </div>
-              </motion.div>
-            </motion.div>
+                <div className="face3">
+                  <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+                </div>
+                <div className="face4">
+                  <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                </div>
+                <div className="face5">
+                  <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+                </div>
+                <div className="face6">
+                  <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
+                </div>
+              </div>
+            </div>
           </div>
-        </div> */}
-        {/* <div className="text-zone_3">
-          <div className="stage-cube-cont">
-            <div className="cubespinner">
-              <div className="face1">
-                <FontAwesomeIcon icon={faAngular} color="#DD0031" />
-              </div>
-              <div className="face2">
-                <FontAwesomeIcon icon={faHtml5} color="#F06529" />
-              </div>
-              <div className="face3">
-                <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
-              </div>
-              <div className="face4">
-                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
-              </div>
-              <div className="face5">
-                <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
-              </div>
-              <div className="face6">
-                <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
-              </div>
+        </div>
+        {/* <div className="stage-cube-cont">
+          <div className="cubespinner">
+            <div className="face1">
+              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+            </div>
+            <div className="face2">
+              <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+            </div>
+            <div className="face3">
+              <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+            </div>
+            <div className="face4">
+              <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+            </div>
+            <div className="face5">
+              <FontAwesomeIcon icon={faJsSquare} color="#EFD81D" />
+            </div>
+            <div className="face6">
+              <FontAwesomeIcon icon={faGitAlt} color="#EC4D28" />
             </div>
           </div>
         </div> */}

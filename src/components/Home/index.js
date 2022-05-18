@@ -30,14 +30,9 @@ const Home = () => {
 
   return (
     <>
-      <div className="container">
-
-        <div className='logopic'>
-          <Logo />
-        </div>
-
-        <div className='home-page'>
-          <div className="text-zone">
+      <div className="container home-page">
+        <div className="text-zone">
+          <div className='home'>
             <h1>
               <span className={letterClass}>H</span>
               <span className={`${letterClass} _12`}>i</span>
@@ -52,7 +47,7 @@ const Home = () => {
                 idx={15}
               />
               <br />
-              <span style={{ color: '#f37867' }} ref={textRef}></span>
+              <span style={{ color: '#f37867', fontSize: '0.5em' }} ref={textRef}></span>
             </h1>
             <br />
             <h2>
@@ -65,10 +60,12 @@ const Home = () => {
               CONTACT ME
             </Link>
           </div>
-        </div>
 
-        <div className='about-page'>
-          <div className="text-zone">
+          {/* <div className='logopic'>
+            <Logo />
+          </div> */}
+
+          <div className='about'>
             <h1>
               <AnimatedLetters
                 letterClass={letterClass}

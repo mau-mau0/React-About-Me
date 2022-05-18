@@ -46,11 +46,10 @@ const Home = () => {
                 strArray={nameArray}
                 idx={15}
               />
-              <br />
-              <span style={{ color: '#f37867', fontSize: '0.5em' }} ref={textRef}></span>
             </h1>
-            <br />
             <h2>
+              <span style={{ color: '#f37867', fontSize: '1.2em' }} ref={textRef}></span>
+              <br />
               With some experience in designing modern websites,
               web services, and online stores. I decided to create an "About Me"
               website to show off my skills. It's easy to use, so you can explore

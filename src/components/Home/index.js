@@ -60,10 +60,11 @@ const Home = () => {
             </Link>
           </div>
 
-          {/* <div className='logopic'>
+          <div className='logopic'>
             <Logo />
-          </div> */}
-
+          </div>
+        </div>
+        <div className="text-zone2">
           <div className='about'>
             <h1>
               <AnimatedLetters

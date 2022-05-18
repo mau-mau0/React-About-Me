@@ -1,21 +1,29 @@
 .circleanime {
-  z-index: 0;
-  width: 400px;
-  height: 609px;
+  height: 500px;
   position: relative;
-  top: 0;
-  right: 10%;
-  bottom: 0;
-  left: auto;
-  margin: auto;
 
-  svg,
-  .logoimg,
+  svg {
+    position: absolute;
+    display: block;
+    margin: auto;
+  }
+
+  .svgC {
+    position: absolute;
+    top: 0px;
+    left: 75px;
+  }
+
+  .logoimg {
+    position: absolute;
+    top: -40px;
+    left: 44px;
+  }
+
   .logo {
     position: absolute;
-    top: 59%;
-    left: 84%;
-    transform: translate(-50%, -50%);
+    top: 53px;
+    left: 100px;
   }
 
   img {
@@ -44,14 +52,12 @@
     opacity: 0;
     animation: fadeIn 2s linear forwards;
     animation-delay: 5s;
-    left: 77.7%;
-    top: 48%;
   }
 
   .circle {
     stroke-dasharray: 1500;
     stroke-dashoffset: 1000;
-    animation: stroke 5s ease-out forwards;
+    animation: stroke 4.5s ease-out forwards;
     animation-delay: 1s;
   }
 

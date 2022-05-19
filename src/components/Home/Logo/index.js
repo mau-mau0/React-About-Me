@@ -7,12 +7,16 @@ const Logo = () => {
 
   return (
     <div class='circleanime'>
-      <div className='svgC'>
-        <svg height="45em" width="40em" viewBox="0 0 1 563">
-          <circle class="circle" cx="50%" cy="50%" r="227" stroke="#f37867" stroke-width="13" fill-opacity="0" />
+      <div className='svgDraw'>
+        <svg viewBox="0 0 500 500">
+          <circle class="circle" cx="250" cy="250" r="200" stroke="#f37867" stroke-width="13" fill-opacity="0"></circle>
         </svg>
       </div>
-      <div class='logo'></div>
+      <div className='svgFill'>
+        <svg viewBox="0 0 500 500">
+          <circle class="circle" cx="250" cy="250" r="200" stroke="#f37867" stroke-width="1" fill="#f37867" fill-opacity="1"></circle>
+        </svg>
+      </div>
       <div class='logoimg'>
         <img
           className="solid-logo"

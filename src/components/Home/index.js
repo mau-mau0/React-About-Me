@@ -12,10 +12,11 @@ const Home = () => {
   const nameArray = [' ', ' ', 'K', 'a', 'm', 'a', 'u', ' ', ' ', 'B', 'o', 'w', 'i', 'e']
 
   useEffect(() => {
-    return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 4000)
-  }, [])
+    const timer = setTimeout(() => {
+      setLetterClass('text-animate-hover');
+    }, 3000);
+    return () => clearTimeout(timer);
+  }, []);
 
   const textRef = useRef()
 

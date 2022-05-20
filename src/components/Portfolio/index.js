@@ -85,7 +85,7 @@ const Portfolio = () => {
               <div
                 className="app__work-img app__flex"
               >
-                <img src={OldAboutS} alt="Mammoth Swap" />
+                <img src={OldAboutS} alt="Old About Me" />
 
                 <motion.div
                   whileHover={{ opacity: [0, 1] }}
@@ -131,7 +131,7 @@ const Portfolio = () => {
               <div
                 className="app__work-img app__flex"
               >
-                <img src={BlackjackS} alt="Mammoth Swap" />
+                <img src={BlackjackS} alt="Black Jack" />
 
                 <motion.div
                   whileHover={{ opacity: [0, 1] }}
@@ -177,14 +177,14 @@ const Portfolio = () => {
               <div
                 className="app__work-img app__flex"
               >
-                <img src={ReactAboutS} alt="Mammoth Swap" />
+                <img src={ReactAboutS} alt="React About Me" />
 
                 <motion.div
                   whileHover={{ opacity: [0, 1] }}
                   transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                   className="app__work-hover app__flex"
                 >
-                  <a href="https://mau-mau0.github.io/About-Me-Website/" target="_blank" rel="noreferrer">
+                  <a href="https://about-kamau.netlify.app/contact" target="_blank" rel="noreferrer">
 
                     <motion.div
                       whileInView={{ scale: [0, 1] }}
@@ -195,7 +195,7 @@ const Portfolio = () => {
                       <AiFillEye />
                     </motion.div>
                   </a>
-                  <a href="https://github.com/mau-mau0/About-Me-Website" target="_blank" rel="noreferrer">
+                  <a href="https://github.com/mau-mau0/React-About-Me" target="_blank" rel="noreferrer">
                     <motion.div
                       whileInView={{ scale: [0, 1] }}
                       whileHover={{ scale: [1, 0.90] }}

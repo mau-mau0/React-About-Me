@@ -92,7 +92,7 @@ const Sidebar = ({ toggled, handleToggleSidebar }) => {
           <ul>
             <li>
               <a
-                href="https://www.linkedin.com/in/kamau-bowie-aa257332a/"
+                href="https://www.linkedin.com/in/kamaubowie/"
                 target="_blank"
                 rel="noreferrer"
               >

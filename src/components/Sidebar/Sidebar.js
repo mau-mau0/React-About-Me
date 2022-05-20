@@ -50,28 +50,33 @@ const Sidebar = ({ toggled, handleToggleSidebar }) => {
         <Menu iconShape="circle">
 
           <MenuItem icon={<FaHome size={32} />}>
-            {intl.formatMessage({ id: 'Home' })}
-            <NavLink activeclassname="active" to="/"></NavLink>
+            <NavLink to="/">
+              {intl.formatMessage({ id: 'Home' })}
+            </NavLink>
           </MenuItem>
 
           <MenuItem icon={<FaProjectDiagram size={32} />}>
-            {intl.formatMessage({ id: 'Experience' })}
-            <NavLink activeclassname="active" className="contact-link" to="/experience"></NavLink>
+            <NavLink to="/experience">
+              {intl.formatMessage({ id: 'Experience' })}
+            </NavLink>
           </MenuItem>
 
           <MenuItem icon={<FaToolbox size={32} />}>
-            {intl.formatMessage({ id: 'Skills' })}
-            <NavLink activeclassname="active" className="contact-link" to="/skills"></NavLink>
+            <NavLink to="/skills">
+              {intl.formatMessage({ id: 'Skills' })}
+            </NavLink>
           </MenuItem>
 
           <MenuItem icon={<FaFolderOpen size={32} />}>
-            {intl.formatMessage({ id: 'Portfolio' })}
-            <NavLink activeclassname="active" className="contact-link" to="/portfolio"></NavLink>
+            <NavLink to="/portfolio">
+              {intl.formatMessage({ id: 'Portfolio' })}
+            </NavLink>
           </MenuItem>
 
           <MenuItem icon={<FaTelegramPlane size={32} />}>
-            {intl.formatMessage({ id: 'Contact' })}
-            <NavLink activeclassname="active" className="contact-link" to="/contact"></NavLink>
+            <NavLink to="/contact">
+              {intl.formatMessage({ id: 'Contact' })}
+            </NavLink>
           </MenuItem>
 
         </Menu>

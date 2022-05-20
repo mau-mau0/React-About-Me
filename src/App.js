@@ -17,10 +17,10 @@ function App() {
       <Routes>
         <Route path="/" element={<IntlProvider locale={locale}><Layout setLocale={setLocale} /></IntlProvider>}>
           <Route index element={<Home />} />
-          <Route path="experience" element={<Experience />} />
-          <Route path="skills" element={<Skills />} />
-          <Route path="portfolio" element={<Portfolio />} />
-          <Route path="contact" element={<Contact />} />
+          <Route path="/experience" element={<Experience />} />
+          <Route path="/skills" element={<Skills />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
         </Route>
       </Routes>
     </>

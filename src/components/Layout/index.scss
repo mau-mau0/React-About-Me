@@ -18,7 +18,7 @@
 
 .tags {
   color: #f37867;
-  opacity: 0.6;
+  opacity: 1;
   position: absolute;
   bottom: 0;
   left: 120px;
@@ -76,7 +76,7 @@
         position: absolute;
         margin-top: -10px;
         left: 1px;
-        opacity: 0.6;
+        opacity: 1;
         line-height: 18px;
         font-weight: 1000;
         letter-spacing: 1px;
@@ -92,7 +92,7 @@
         left: -17px;
         bottom: -20px;
         margin-left: 20px;
-        opacity: 0.6;
+        opacity: 1;
         font-weight: 1000;
         letter-spacing: 1px;
       }
@@ -150,7 +150,7 @@
         position: absolute;
         margin-top: -10px;
         left: 1px;
-        opacity: 0.6;
+        opacity: 1;
         line-height: 18px;
         font-weight: 1000;
         letter-spacing: 1px;
@@ -166,7 +166,7 @@
         left: -17px;
         bottom: -20px;
         margin-left: 20px;
-        opacity: 0.6;
+        opacity: 1;
         font-weight: 1000;
         letter-spacing: 1px;
       }
@@ -205,7 +205,7 @@
 
 .container.skills-page {
   width: 75%;
-  top: 12%;
+  top: 16%;
   margin: 0 20px 0px 260px;
 
   @media screen and (max-width:768px) {
@@ -230,7 +230,7 @@
       position: absolute;
       margin-top: -10px;
       left: 1px;
-      opacity: 0.6;
+      opacity: 1;
       line-height: 18px;
       font-weight: 1000;
       letter-spacing: 1px;
@@ -246,7 +246,7 @@
       left: -17px;
       bottom: -20px;
       margin-left: 20px;
-      opacity: 0.6;
+      opacity: 1;
       font-weight: 1000;
       letter-spacing: 1px;
     }
@@ -381,7 +381,7 @@
       position: absolute;
       margin-top: -10px;
       left: 1px;
-      opacity: 0.6;
+      opacity: 1;
       line-height: 18px;
       font-weight: 1000;
       letter-spacing: 1px;
@@ -397,7 +397,7 @@
       left: -17px;
       bottom: -20px;
       margin-left: 20px;
-      opacity: 0.6;
+      opacity: 1;
       font-weight: 1000;
       letter-spacing: 1px;
     }
@@ -424,10 +424,83 @@
       width: 50%;
       flex-direction: column;
       margin: 1rem;
-      z-index: 2000;
+      z-index: 1009;
 
       @media screen and (max-width: 1200px) {
         width: 100%;
+      }
+
+      .ityped-cursor {
+        font-size: 1.4em;
+        color: #f37867;
+        opacity: 1;
+        -webkit-animation: blink 0.3s infinite;
+        -moz-animation: blink 0.3s infinite;
+        animation: blink 0.3s infinite;
+        animation-direction: alternate;
+      }
+
+      @keyframes blink {
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @-webkit-keyframes blink {
+        100% {
+          opacity: 0;
+        }
+      }
+
+      @-moz-keyframes blink {
+        100% {
+          opacity: 0;
+        }
+      }
+
+      h2 {
+        color: #8d8d8d;
+        margin-top: 20px;
+        font-weight: 400;
+        font-size: 22px;
+        font-family: 'Coolvetica';
+        letter-spacing: 2 px;
+        animation: fadeIn 1s 1.8s backwards;
+        width: 100%;
+
+        @media screen and (max-width:768px) {
+          width: 100%;
+        }
+
+        @media screen and (max-width:488px) {
+          font-size: 17px;
+        }
+      }
+
+      .flat-button {
+        color: #f37867;
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 4px;
+        font-family: sans-serif;
+        text-decoration: none;
+        padding: 10px 18px;
+        border: 2px solid #f37867;
+        margin-top: 24px;
+        float: left;
+        animation: fadeIn 1s 1.8s backwards;
+        white-space: nowrap;
+        border-radius: 4px;
+
+        &:hover {
+          background: #f37867;
+          color: #333;
+        }
+
+        @media screen and (max-width:488px) {
+          font-size: 10px;
+          letter-spacing: 2px;
+        }
       }
     }
 

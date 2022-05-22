@@ -21,9 +21,7 @@ import CssS from '../../assets/images/css.png'
 import NodeS from '../../assets/images/node.png'
 import SolidityS from '../../assets/images/Solidity.png'
 import SassS from '../../assets/images/sass.png'
-
-// import { AppWrap, MotionWrap } from '../../wrapper';
-// import { urlFor, client } from '../../client';
+import DockerS from '../../assets/images/docker.png'
 import './index.scss'
 
 const Skills = () => {
@@ -120,6 +118,13 @@ const Skills = () => {
                     <img src={SolidityS} alt="Solidity" />
                   </div>
                   <p className="p-text">Solidity</p>
+                </motion.div>
+
+                <motion.div whileInView={{ opacity: [0, 1] }} transition={{ duration: 0.5 }} className="app__skills-item app__flex">
+                  <div className="app__flex" style={{ backgroundColor: '#F8F0D2' }}>
+                    <img src={DockerS} alt="Docker" />
+                  </div>
+                  <p className="p-text">Docker</p>
                 </motion.div>
               </motion.div>
             </div>

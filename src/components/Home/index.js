@@ -51,7 +51,7 @@ const Home = () => {
             <h2>
               <span style={{ color: '#f37867', fontSize: '1.2em' }} ref={textRef}></span>
               <br />
-              With some experience in designing modern websites,
+              With experience in designing modern websites,
               web services, and online stores. I decided to create an "About Me"
               website to show off my skills. It's easy to use, so you can explore
               my work, projects, and learn all about me in just a few clicks!
@@ -70,7 +70,7 @@ const Home = () => {
             <h1>
               <AnimatedLetters
                 letterClass={letterClass}
-                strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+                strArray={['A', 'b', 'o', 'u', 't', ' ', ' ', 'm', 'e']}
                 idx={15}
               />
             </h1>

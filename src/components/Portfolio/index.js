@@ -184,7 +184,7 @@ const Portfolio = () => {
                   transition={{ duration: 0.25, ease: 'easeInOut', staggerChildren: 0.5 }}
                   className="app__work-hover app__flex"
                 >
-                  <a href="https://about-kamau.netlify.app/contact" target="_blank" rel="noreferrer">
+                  <a href="https://about-kamau.netlify.app" target="_blank" rel="noreferrer">
 
                     <motion.div
                       whileInView={{ scale: [0, 1] }}

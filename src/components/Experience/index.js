@@ -88,17 +88,18 @@ const Experience = () => {
               <p>Mystic Mask</p>
               <ul>
                 <li>
-                  Freelancer for custom MS Access databases, Spreadsheets, Websites, Graphic Design, NFT
-                  smart contracts, &amp; CS/Math Tutoring
+                  Managed the buying/selling of goods online using sales venues such as Amazon, eBay, &
+                  Shopify
                 </li>
                 <li>
-                  Provided services to over 40 clients &amp; counting (businesses, clubs, and personal use)
+                  Managed customer service and issued resolutions to ensure high satisfaction for customers
                 </li>
                 <li>
-                  Created 2 different niche MS Access database templates for sale on Etsy/Reddit with many users
+                  Coordinated the business' financial activities to fund operations, maximize investments, and
+                  increase efficiency
                 </li>
                 <li>
-                  Design smart contracts for NFTs and cryptocurrencies
+                  Responsible for the returns, shipping and handling, packaging, and distribution of merchandise
                 </li>
               </ul>
             </div>

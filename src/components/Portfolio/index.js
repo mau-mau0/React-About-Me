@@ -257,7 +257,7 @@ const Portfolio = () => {
               </div>
 
               <div className="app__work-content app__flex">
-                <h4 className="bold-text">Summer 2022 Crypto Arbitrage</h4>
+                <h4 className="bold-text">Crypto Arbitrage</h4>
                 <p className="p-text" style={{ marginTop: 10 }}>Spots crypto arbitrage opportunities. Goal being to spot these opportunities and execute them using my developed strategies.</p>
 
                 <div className="app__work-tag app__flex">

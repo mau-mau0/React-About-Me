@@ -62,6 +62,27 @@ const Experience = () => {
               />
             </h1>
             <div className='job'>
+              <h3 style={{ float: 'left' }}>Centiva Capital, LP</h3>
+              <h4 style={{ float: 'right' }}>AUGUST 2022 – OCTOBER 2022</h4>
+              <p>Quantitative Analyst - Intern</p>
+              <ul>
+                <li>
+                  Built a Python solution that feeds data for 378 securitized products to their database on a weekly basis for easy
+                  analysis
+                </li>
+                <li>
+                  Generated precise reports and research for specific securities to be used for various trading strategies
+                </li>
+                <li>
+                  Helped build regression models to back-test hedging strategies for 4 different business plans
+                </li>
+                <li>
+                  Created 3 Excel VBA functions for the team to utilize for their analysis
+                </li>
+              </ul>
+            </div>
+            <hr />
+            <div className='job'>
               <h3 style={{ float: 'left' }}>Mau IT Solutions</h3>
               <h4 style={{ float: 'right' }}>FEBURARY 2021 – PRESENT</h4>
               <p>Technical Freelancer</p>
